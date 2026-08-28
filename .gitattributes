@@ -1,0 +1,9 @@
+# Default behavior 
+# Normalize line endings
+public/** linguist-vendored
+*.gif binary
+*.bat text eol=crlf
+
+public/index.html linguist-vendored
+* text=auto
+**/*.py linguist-detectable
